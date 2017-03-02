@@ -8,9 +8,9 @@ header {
 }
 
 .outer-container {
-    align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     margin: 0 auto;
 }
 
@@ -24,10 +24,10 @@ header {
     width: 20%;
 }
 
-.top {
+.left {
     background: #Ff6a6a;
 }
 
-.bottom {
+.right {
     background: #7ec0ee;
 }
